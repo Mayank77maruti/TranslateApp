@@ -13,6 +13,14 @@ import { Textarea } from "@/components/ui/textarea";
 import { useCopilotAction, useCopilotReadable } from "@copilotkit/react-core";
 import Image from "next/image";
 
+// interface TextareaProps {
+//   // Add necessary members here
+//   placeholder?: string;
+//   value?: string;
+//   onChange?: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
+//   className?: string;
+// }
+
 const languages = [
   { code: "en", name: "English" },
   { code: "es", name: "Spanish" },
@@ -97,7 +105,7 @@ export function LanguageTranslator() {
           <h1 className="text-4xl font-bold text-gray-800">Welcome to Language Translator</h1>
           <p className="text-gray-600 mt-2">
             Experience effortless communication by translating your text into multiple languages (Almost 20+ languages). 
-            Whether you're traveling, studying, or connecting with friends worldwide, this tool helps 
+            Whether you&apos;re traveling, studying, or connecting with friends worldwide, this tool helps 
             you overcome language barriers.
           </p>
         </div>
